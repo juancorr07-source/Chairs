@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Working directory: " + System.getProperty("user.dir"));
-        String filePath = args.length > 0 ? args[0] : "data/sillas.txt";
+        String filePath = args.length > 0 ? args[0] : "data/sillas_completo.txt";
 
         InventoryManager inventory = new InventoryManager();
         InventoryConsole console = new InventoryConsole();
