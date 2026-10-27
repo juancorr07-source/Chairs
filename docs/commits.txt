@@ -1,0 +1,10 @@
+PS C:\Users\User\Desktop\Sillas\Chairs> git log --oneline 
+604e96a (HEAD -> main, origin/main, origin/HEAD) Addition of the class diagram
+9bdefef Update of the Main class with the complete file and ReadME
+4c6c3a9 Creation of the classes of Tandem, Wheelchair, Massager and the enumeration of Traction. Also, the creation of the txt archive with all the chairs
+8b3d5a2 Fixing chair data
+a94216a Add sample chair data
+b81222b Add console interface and Main class
+8314bed Ignoring the bin folder
+e5d8d11 Add chair hierarchy and inventory loading
+9a4b8c4 Initial commit
