@@ -1,0 +1,20 @@
+Zart, Presidencial, 400000, 3.5, si
+Tokio, Presidencial, 400001, 3.5, si
+Kioto, Presidencial, 400000, 3.4, si
+Lion, Presidencial, 560000, 2.0, no
+Atlas, Presidencial, 350000, 4.8, si
+Osaka, Gerencial, 300000, 4.0
+Monk, Gerencial, 300001, 4.8
+Nara, Gerencial, 250000, 3.9
+Kobe, Gerencial, 280000, 4.5
+Slim, Secretarial, 200000, 3.0
+Delphi, Secretarial, 185000, 2.9
+Lima, Secretarial, 200001, 4.6
+Quito, Secretarial, 180000, 4.0
+Roller, De Ruedas, 325000, 4.4, manual
+Motion, De Ruedas, 1800000, 1.5, automática
+Wuhan, Tándem, 420000, 4.2, 2
+Union, Tándem, 900000, 2.0, 4
+Relax plus, Masajeadora, 1350000, 4.8, 6, si
+Zen, Masajeadora, 2500000, 1.0, 8, no
+Comfort, Masajeadora, 950000, 3.0, 4, si

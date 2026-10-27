@@ -11,6 +11,10 @@ import model.Chair;
 import model.ExecutiveChair;
 import model.PresidentialChair;
 import model.SecretarialChair;
+import model.Traction;
+import model.Wheelchair;
+import model.Massager;
+import model.Tandem;
 
 public class InventoryManager {
     private List<Chair> chairs;
@@ -84,6 +88,26 @@ public class InventoryManager {
 
                 case "Secretarial":
                     chair = new SecretarialChair(reference, price, rating);
+                    break;
+
+                case "De Ruedas":
+                    Traction traction = Traction.valueOf(
+                            lineScanner.next().trim().toUpperCase(Locale.ROOT));
+
+                    chair = new Wheelchair(reference, price, rating, traction);
+                    break;
+
+                case "Tándem":
+                    int numberOfSeats = lineScanner.nextInt();
+
+                    chair = new Tandem(reference, price, rating, numberOfSeats);
+                    break;
+
+                case "Masajeadora":
+                    int usageModes = lineScanner.nextInt();
+                    String calefaction = lineScanner.next().trim();
+
+                    chair = new Massager(reference, price, rating, usageModes, calefaction);
                     break;
 
                 default:
